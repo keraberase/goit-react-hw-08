@@ -1,0 +1,19 @@
+.authNavContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  padding: 10px;
+}
+
+.active {
+  color: black;
+  text-decoration: underline;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  display: inline-block;
+}

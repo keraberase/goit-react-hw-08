@@ -1,0 +1,13 @@
+.link {
+  padding: 10px;
+}
+
+.active {
+  color: black;
+  text-decoration: underline;
+}
+
+.link:hover {
+  transform: scale(1.2);
+  display: inline-block;
+}

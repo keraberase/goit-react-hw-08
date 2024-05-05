@@ -1,0 +1,21 @@
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnLogout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 10px;
+}
+
+.btnLogout:hover,
+.btnLogout:focus {
+  transform: scale(1.1);
+}

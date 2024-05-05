@@ -1,0 +1,30 @@
+.contact {
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+  width: 320px;
+
+  background-color: white;
+  color: black;
+  column-gap: 10px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.formBtn {
+  border-radius: 5px;
+  border: none;
+  transform: scale(1.1);
+  padding: 15px;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  transform: scale(1.2);
+}
