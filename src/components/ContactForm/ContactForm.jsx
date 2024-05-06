@@ -45,7 +45,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id={nameInputId}
-            placeholder="Serj Raynalds"
+            placeholder="Serhii Raynalds"
           />
           <span className={css.errorMsg}>
             <ErrorMessage name="name" as="span" />
