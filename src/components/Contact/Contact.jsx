@@ -4,6 +4,7 @@ import { FcPhoneAndroid } from "react-icons/fc";
 import { useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/contacts/operations";
 
+// eslint-disable-next-line react/prop-types
 const Contact = ({ name, number, id }) => {
   const dispatch = useDispatch();
 

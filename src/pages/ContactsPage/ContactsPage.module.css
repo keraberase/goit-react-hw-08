@@ -1,0 +1,16 @@
+.container {
+  background-color: mediumaquamarine;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
